@@ -21,6 +21,7 @@ int main(void)
 		putchar(lower_case);
 	for (lower_case = 'A'; lower_case <= 'Z'; lower_case++)
 		putchar(lower_case);
+	        putchar('\n');
 
 	return (0);
 }
