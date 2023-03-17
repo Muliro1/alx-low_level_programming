@@ -23,7 +23,7 @@ int main(void)
 		n = rand() - RAND_MAX / 2;
 		mine = n % 10;
 		if (mine > 5)
-			printf("Last digit of %d is %d and is greater that 5", n, mine);
+			printf("Last digit of %d is %d and is greater than 5", n, mine);
 		else if (mine == 0)
 			printf("Last digit of %d is %d and is 0", n, mine);
 		else
