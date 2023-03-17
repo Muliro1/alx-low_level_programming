@@ -7,7 +7,13 @@
 /**
  * main - Entry point
  * Description: print the last random value
- * Result: always 0 (Success)
+ *
+ *
+ *
+ *
+ *
+ *
+ * Return: always 0 (Success)
  */
 
 
