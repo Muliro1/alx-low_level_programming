@@ -6,6 +6,13 @@
  * Return: reversed string
  */
 
+
+
+
+
+
+
+
 void rev_string(char *s)
 {
 	char rev = s[0];
@@ -19,7 +26,8 @@ void rev_string(char *s)
 	for (i = 0; i < counter; i++)
 	{
 		counter--;
-		rev = s[counter];
+		rev = s[i];
+		s[i] = s[counter];
 		s[counter] = rev;
 	}
 }
