@@ -19,7 +19,7 @@ def island_perimeter(grid):
         for j in range(width):
             if grid[i][j] == 1:
                 size += 1
-                # checking for boundery or a lake
+                ''' checking for boundery or a lake '''
                 if (j > 0 and grid[i][j - 1] == 1):
                     edges += 1
                 if (i > 0 and grid[i - 1][j] == 1):
